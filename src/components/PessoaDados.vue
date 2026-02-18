@@ -1,14 +1,14 @@
 <template>
     <h2>Esta é a descrição da pessoa: {{ nome }}</h2>
-    <InfoPessoa></InfoPessoa>
+    <InfoPessoa />
 </template>
 
 <script>
-import InfoPessoa from './Info.vue';
+import InfoPessoa from './InfoPessoa.vue';
 export default {
     name: 'PessoaDados',
     components:{
-        InfoPessoa
+        InfoPessoa,
     },
     data() {
         return {
