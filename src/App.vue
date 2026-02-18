@@ -1,9 +1,15 @@
-<template:>
-  <h1>Carregou a página</h1>
-</template:>
+<template>
+  <PrimeiroComponente />
+</template>
 
 <script>
+
+  import PrimeiroComponente from './components/PrimeiroComponente.vue'
+
   export default {
-    name: 'App'
+    name: 'App',
+    components: {
+      PrimeiroComponente
+    }
   }
 </script>
