@@ -1,9 +1,22 @@
-<template:>
-  <h1>Carregou a página</h1>
-</template:>
+<template>
+  <PrimeiroComponente />
+  <LifeCycle />
+  <PessoaDados />
+</template>
 
 <script>
+
+  import PrimeiroComponente from './components/PrimeiroComponente.vue'
+  import LifeCycle from './components/LifeCycle.vue'
+  import PessoaDados from './components/Pessoa.vue';
+
   export default {
-    name: 'App'
+    name: 'App',
+    components: {
+      PrimeiroComponente,
+      LifeCycle,
+      PessoaDados
+    }
   }
+  
 </script>

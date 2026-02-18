@@ -1,0 +1,8 @@
+vermelho:
+#B11F17
+
+azul:
+#00488B
+
+branco:
+rgb(255,255,255)
