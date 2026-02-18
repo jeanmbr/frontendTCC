@@ -8,14 +8,13 @@
 
   import PrimeiroComponente from './components/PrimeiroComponente.vue'
   import LifeCycle from './components/LifeCycle.vue'
-  import PessoaDados from './components/Pessoa.vue';
-
+  import PessoaDados from './components/PessoaDados.vue';
   export default {
     name: 'App',
     components: {
       PrimeiroComponente,
       LifeCycle,
-      PessoaDados
+      PessoaDados,
     }
   }
   
