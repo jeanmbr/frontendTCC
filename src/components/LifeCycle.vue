@@ -3,6 +3,7 @@
 </template>
 
 <script>
+
     export default {
         name: 'LifeCycle',
         data(){
@@ -12,12 +13,12 @@
         },
         created(){
             setTimeout(() => {
-                this.nome = 'Jean'
+                this.nome = 'Pedro'
             }, 1000)
         },
         mounted(){
             setTimeout(() => {
-                this.nome = 'Pedro'
+                this.nome = 'Jean'
             }, 2000)
         }
     }
